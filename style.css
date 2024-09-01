@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1dcdc;
+    color: #333;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #0b494e;
+}
+
+h2 {
+    background-color: blanchedalmond;
+    font-size: 2em;
+    margin-bottom: 3px;
+    color: #30702d;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.p1 img{
+    border: 2px solid black;
+    width: 45vw;
+    height: 70vh;
+    margin: 10px;
+}
+.p2 img{
+    border: 2px solid black;
+    width: 45vw;
+    height: 70vh;
+    margin: 10px;
+}
+.p3{
+    display: flex;
+    justify-content: space-between;
+}
+.p3 div:first-child {
+    font-style: italic;
+    gap: 60px;
+    display: flex;
+    padding: 30px;
+    margin-top: 5px;
+    text-align: start;
+    color: #a5b2d8cc;
+    font-size: larger;
+    align-items: center;
+    font-weight: bolder;
+    background: #000000;
+}
+video{
+    width: 325px;
+    height: 205px;
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #25279b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.skills{
+    display: grid;
+    align-content: center;
+    background-color: rgb(178, 166, 188);
+}
+
